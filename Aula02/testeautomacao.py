@@ -1,0 +1,15 @@
+import pyautogui as pt
+
+pt.press('win')
+pt.sleep(1)
+pt.write("fer")
+pt.sleep(1)
+pt.press('enter')
+pt.sleep(1)
+pt.hotkey('ctrl','n')
+pt.sleep(2)
+pt.hotkey('ctrl','s')
+pt.sleep(3)
+pt.write(r"C:\Users\FIC\Documents\IA2026\Aula02\tela.png")
+pt.sleep(1)
+pt.press('enter')
